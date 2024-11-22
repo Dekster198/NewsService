@@ -10,7 +10,7 @@ services:
       - POSTGRES_DB=${PG_DATABASE}
       - POSTGRES_USER=${PG_USER}
       - POSTGRES_PASSWORD=${PG_PASSWORD}
-      - PGPORT=${PG_PORT}
+      - POSTGRES_PORT=${PG_PORT}
     expose:
       - 5434
     ports:
